@@ -11,7 +11,7 @@ def download_html(url):
         print(f"Error downloading HTML: {e}")
         return None
 
-def save_to_html_file(html_content, filename="output.html"):
+def save_to_html_file(html_content, filename="output.txt"):
     try:
         with open(filename, "w", encoding="utf-8") as file:
             file.write(html_content)
